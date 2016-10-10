@@ -1,0 +1,5 @@
+*.pro.user
+/rpm/*.spec
+/translations/*.qm
+*.autosave
+tmp
