@@ -33,6 +33,7 @@ QtObject {
             _data.commands.splice(index + dir, 0, c);
         }
         commandsChanged();
+        save();
     }
 
     function deleteCommand(id) {
